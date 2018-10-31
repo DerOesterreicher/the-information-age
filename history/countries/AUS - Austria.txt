@@ -87,26 +87,47 @@ add_ideas = {
 	limited_conscription
 }
 
+add_ideas = {
+	#Defence Minister
+	mario_kunasek
+	#Foreign Minister
+	karin_kneissl
+	#Finance Minister
+	hartwig_loeger
+	#Commerce Minister
+	magarethe_schramboek
+	#Justice Minister
+	josef_moser
+	#Culture Minister
+	gernot_bluemel
+}
+
 set_politics = {
 
 	parties = {
+		monarchist = {
+			popularity = 0.02
+		}
 		reactionary = {
-			popularity = 26
+			popularity = 26.15
 		}
 		conservative = {
-			popularity = 31.5
+			popularity = 32.61
 		}
 		social_liberal = {
-			popularity = 5.3
+			popularity = 5.30
 		}
 		social_democrat = {
-			popularity = 26.9
+			popularity = 26.91
 		}
 		progressive = {
-			popularity = 10.3
+			popularity = 8.21
 		}
 		communist = {
-			popularity = 0
+			popularity = 0.78
+		}
+		democratic_socialist = {
+			popularity = 0.01
 		}
 	}
 	
@@ -141,9 +162,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Peter Pilz"
-	picture = "Peter_Pilz.dds"
-	ideology = progressive_ideology
+	name = "Werner Kogler"
+	picture = "Werner_Kogler.dds"
+	ideology = green
 }
 
 create_country_leader = {
